@@ -3,6 +3,10 @@
 An SKSE plugin for **Skyrim SE 1.5.97** that drives how NPCs turn and move during attacks, from annotations placed in
 the animations themselves, much like the TAE events of FromSoftware bosses. Made for Skyrim Dragon Souls.
 
+> **Skyrim SE 1.5.97 only.** The plugin is built for the Special Edition runtime 1.5.97 and uses SE Address Library
+> IDs, offsets and structure layouts. It does not load on Anniversary Edition (1.6.x) or Skyrim VR; supporting them would
+> need every engine address and offset re-found and tested for those runtimes.
+
 Full guide (Russian): [docs/Guide_RU.md](docs/Guide_RU.md) · annotation reference: [docs/Annotations_RU.md](docs/Annotations_RU.md)
 · Elden Ring root-motion research: [docs/EldenRing_Research_RU.md](docs/EldenRing_Research_RU.md)
 
@@ -45,7 +49,8 @@ movement CSV and hook counters, each one INI switch.
 
 ## Requirements
 
-- SKSE64 and Address Library for SKSE Plugins (SE)
+- Skyrim SE **1.5.97** (not AE 1.6.x, not VR)
+- SKSE64 2.0.20 and Address Library for SKSE Plugins (SE version)
 - Behavior Data Injector (registers the `SDS_NPC_*` events, `mod/SKSE/Plugins/BehaviorDataInjector/SDSCombat_BDI.json`)
 - An `animmotion` root-motion framework: Animation Motion Revolution or Root Motion Revolution
 - For the bump annotations: Animation Motion Fix (`DisableNpcMovementMagnetism = false`) and BFCO, which adds the
