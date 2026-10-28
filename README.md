@@ -100,7 +100,7 @@ windows before every `HitFrame`.
 
 ## Credits
 
-- **Newrite** — [RotateAnnotation](https://www.nexusmods.com/skyrimspecialedition/): the AI turn-speed hook site
+- **Newrite** — RotateAnnotation: the AI turn-speed hook site
   (`REL::ID(36365) + 0x356`) and the idea of turning NPCs through it, which the target lock is built on.
 - **max-su-2019 (Maxsu)** — [Animation Motion Fix](https://github.com/max-su-2019/AnimationMotionFix): the map of the
   engine's movement update this plugin hooks into (`ModifyMovementData`), and the `AMF_bForbidMoveMagnetism` switch the
