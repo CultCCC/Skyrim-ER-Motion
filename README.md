@@ -70,8 +70,8 @@ Copy `mod/` into a mod folder: `SKSE/Plugins/SDSCombat.dll` (from a release or y
 Visual Studio 2022 with the C++ workload, [xmake](https://xmake.io) 3.x, PowerShell.
 
 ```powershell
-git clone --recurse-submodules https://github.com/<you>/SDSCombat
-cd SDSCombat
+git clone --recurse-submodules https://github.com/CultCCC/Skyrim-ER-Motion
+cd Skyrim-ER-Motion
 powershell -ExecutionPolicy Bypass -File tools/build.ps1                   # -> mod/SKSE/Plugins/SDSCombat.dll
 powershell -ExecutionPolicy Bypass -File tools/build.ps1 -Publish D:\Mods\SDSCombat   # also copy mod/ there
 ```
