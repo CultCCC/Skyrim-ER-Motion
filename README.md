@@ -98,7 +98,19 @@ windows before every `HitFrame`.
 | `plugin/src/DebugDraw.*`, `Diag.*`, `MotionDebug.*`, `MotionFix.*` | debugging |
 | `mod/` | the INI and BDI files of the mod |
 
+## Credits
+
+- **Newrite** — [RotateAnnotation](https://www.nexusmods.com/skyrimspecialedition/): the AI turn-speed hook site
+  (`REL::ID(36365) + 0x356`) and the idea of turning NPCs through it, which the target lock is built on.
+- **max-su-2019 (Maxsu)** — [Animation Motion Fix](https://github.com/max-su-2019/AnimationMotionFix): the map of the
+  engine's movement update this plugin hooks into (`ModifyMovementData`), and the `AMF_bForbidMoveMagnetism` switch the
+  bump annotations drive.
+- **vinymayan** — [NPC Target Lock](https://github.com/vinymayan/NPC-Target-Lock): the annotation-driven NPC lock this
+  one started from.
+- **alandtse and the CommonLibSSE-NG contributors** — [CommonLibVR (ng)](https://github.com/alandtse/CommonLibVR).
+- The authors of Animation Motion Revolution and Root Motion Revolution, whose `animmotion` annotations the root-motion
+  catalog reads, and **opparco** for hkanno.
+
 ## License
 
-GPL-3.0. Thanks to the authors of CommonLibSSE-NG, Animation Motion Fix, NPC Target Lock and RotateAnnotation, whose
-work this builds on or learned from.
+GPL-3.0 (see [LICENSE](LICENSE)).
