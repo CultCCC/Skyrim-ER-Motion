@@ -1,0 +1,18 @@
+# xmake
+plugin/build/
+plugin/.xmake/
+.xmake/
+
+# build output (the DLL is built by tools/build.ps1, releases carry it)
+*.dll
+*.pdb
+*.exe
+*.obj
+*.lib
+*.exp
+*.ilk
+build_log.txt
+
+# editors
+.vs/
+.vscode/

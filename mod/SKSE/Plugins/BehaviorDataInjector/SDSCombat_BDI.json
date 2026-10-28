@@ -1,0 +1,62 @@
+[
+    {
+        "projectPath": "Actors",
+        "type": "kEvent",
+        "name": "SDS_NPC_TargetLockOn",
+        "notify": true
+    },
+    {
+        "projectPath": "Actors",
+        "type": "kEvent",
+        "name": "SDS_NPC_TargetLockOff",
+        "notify": true
+    },
+    {
+        "projectPath": "Actors",
+        "type": "kEvent",
+        "name": "SDS_NPC_StopRotation",
+        "notify": true
+    },
+    {
+        "projectPath": "Actors",
+        "type": "kEvent",
+        "name": "SDS_NPC_TargetLockReset",
+        "notify": true
+    },
+    {
+        "projectPath": "Actors",
+        "type": "kEvent",
+        "name": "SDS_NPC_TurnSpeed",
+        "notify": true
+    },
+    {
+        "projectPath": "Actors",
+        "type": "kEvent",
+        "name": "SDS_NPC_ReachTarget",
+        "notify": true
+    },
+    {
+        "projectPath": "Actors",
+        "type": "kEvent",
+        "name": "SDS_NPC_ReachTargetEnd",
+        "notify": true
+    },
+    {
+        "projectPath": "Actors",
+        "type": "kEvent",
+        "name": "SDS_NPC_BumpOff",
+        "notify": true
+    },
+    {
+        "projectPath": "Actors",
+        "type": "kEvent",
+        "name": "SDS_NPCBumpOff",
+        "notify": true
+    },
+    {
+        "projectPath": "Actors",
+        "type": "kEvent",
+        "name": "SDS_NPC_BumpOn",
+        "notify": true
+    }
+]
